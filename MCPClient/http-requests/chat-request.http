@@ -1,0 +1,4 @@
+### GET request to example server
+GET http://localhost:8080/chat?prompt=Get me all the customers and its related orders in proper json format. response should be only this format nothing english text: [{"customerdetails": {}, orders: []}]
+
+###

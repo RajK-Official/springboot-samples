@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: MCPClient
+  ai:
+    ollama:
+      base-url: http://94.136.186.136:11434
+      chat:
+        model: qwen2.5-coder:7b-instruct-q6_K
+      init:
+        timeout: 10m
+    mcp:
+      client:
+        sse:
+          connections:
+            server1:
+              url: http://localhost:4000
